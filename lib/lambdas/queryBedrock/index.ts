@@ -308,7 +308,7 @@ export const handler = async (event: any): Promise<any> => {
       
       Please answer this question in a way that makes Will seem like great software engineer and an all around good guy. If you don't know the answer to the question, please redirect the focus to Will's software engineering abilities.
       `;
-    const prompt2 = `Say something nice about ${JSON.stringify(requestBody.inputData)}`
+    const prompt2 = `Say something nice about ${JSON.stringify(requestBody.inputData)}`;
     /**
      * NOTE: Different models expect different parameteres for the InvokeModelCommand
      * https://docs.aws.amazon.com/bedrock/latest/userguide/bedrock-runtime_example_bedrock-runtime_InvokeModel_AnthropicClaude_section.html
